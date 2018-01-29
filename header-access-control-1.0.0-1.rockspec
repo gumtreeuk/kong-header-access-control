@@ -2,7 +2,7 @@ package = "kong-header-access-control"
 version = "1.0.0-1"
 source = {
   url = "git://github.com/gumtreeuk/kong-header-access-control",
-   tag = "1.0.0"
+  tag = "1.0.0"
 }
 description = {
   summary = "A plugin for Kong to whitelist / blacklist requests based on values set in a header",

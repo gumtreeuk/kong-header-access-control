@@ -6,9 +6,9 @@ env:
   global:
     - LUAROCKS=2.3.0
   matrix:
-    - LUA=lua5.1
-    - LUA=lua5.2
-    - LUA=lua5.3
+    - LUA=Lua-5.1
+    - LUA=Lua-5.2
+    - LUA=Lua-5.3
 
 before_install:
   - . .travis/setup.sh

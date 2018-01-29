@@ -18,7 +18,7 @@ install:
   - luarocks make
 
 script:
-  - tests.sh
+  - ./tests.sh
 
 notifications:
   email: false

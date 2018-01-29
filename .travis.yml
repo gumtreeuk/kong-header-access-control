@@ -6,9 +6,8 @@ env:
   global:
     - LUAROCKS=2.3.0
   matrix:
-    - LUA=lua5.1
-    - LUA=lua5.2
-    - LUA=lua5.3
+    - LUA=Lua-5.2.0
+    - LUA=Lua-5.3.4
 
 before_install:
   - . .travis/setup.sh
@@ -18,7 +17,7 @@ install:
   - luarocks make
 
 script:
-  - tests.sh
+  - ./tests.sh
 
 notifications:
   email: false

@@ -1,4 +1,4 @@
-# kong-header-access-control
+# kong-header-access-control [![Build Status](https://travis-ci.org/gumtreeuk/kong-header-access-control.svg?branch=master)](https://travis-ci.org/gumtreeuk/kong-header-access-control)
 A plugin for kong to whitelist / blacklist requests based on values set in a header
 
 ## Installation

@@ -14,9 +14,9 @@ For example:
 ```
 $ curl -X POST http://kong:8001/apis/{api}/plugins \
     --data "name=kong-header-access-control" \
-    --data "config.type: regular" \
-    --data "config.header: MyHeader" \
-    --data "config.whitelist: FirstAllowedVal,SecondAllowedVal"
+    --data "config.type=regular" \
+    --data "config.header=MyHeader" \
+    --data "config.whitelist=FirstAllowedVal,SecondAllowedVal"
 ```
 
 | Parameter  | Description |
